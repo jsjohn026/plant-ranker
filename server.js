@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 const MongoClient = require('mongodb').MongoClient
 require('dotenv').config()
+const hostname = "0.0.0.0"
 const PORT = process.env.PORT
 
 let db, 
@@ -77,6 +78,6 @@ app.listen(process.env.PORT, ()=>{
     console.error("PORT is not set, check env settings");
     process.exit(1);
   }
-  
+
   console.log(`Server running on port ${PORT}`)
 })

@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  font: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  background: #648880;
+  background: linear-gradient(to right, #f6f1d3, #648880);
+  /* background-color: ; */
+}
+
+h1, h2 {
+  color: #293f50;
+}
+
+li {
+  background-color: #e0e0e0;
+  color: #293f50;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px 10px;
+  max-width: 50%;
+  list-style: none;
+  box-shadow: 3px 3px 3px gray;
+}
+
+.fa-thumbs-up, .fa-trash {
+  color: #293f50;
+}
+
+span {
+  padding: 0 2px;
+}

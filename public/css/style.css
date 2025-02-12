@@ -33,3 +33,9 @@ li {
 span {
   padding: 0 2px;
 }
+
+@media all and (max-width: 600px) {
+  li {
+    max-width: 100%;
+  }
+}

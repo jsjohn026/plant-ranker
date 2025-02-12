@@ -73,5 +73,10 @@ app.delete('/deletePlant', (req, res) => {
 })
 
 app.listen(process.env.PORT, ()=>{
+  if(!process.env.PORT) {
+    console.error("PORT is not set, check env settings");
+    process.exit(1);
+  }
+  
   console.log(`Server running on port ${PORT}`)
 })

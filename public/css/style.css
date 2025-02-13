@@ -8,11 +8,14 @@ body {
   font: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
   background: #648880;
   background: linear-gradient(to right, #f6f1d3, #648880);
-  /* background-color: ; */
 }
 
 h1, h2 {
   color: #293f50;
+}
+
+ul {
+  padding: 0;
 }
 
 li {
@@ -26,6 +29,14 @@ li {
   box-shadow: 3px 3px 3px gray;
 }
 
+input {
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 8px;
+}
+
 .fa-thumbs-up, .fa-trash {
   color: #293f50;
 }
@@ -35,11 +46,17 @@ span {
 }
 
 @media all and (max-width: 600px) {
-  li, form {
-    max-width: 100%;
+  li{
+    max-width: 80%;
+    margin: 10px auto;
+  }
+  
+  input {
+    width: 100%;
+    margin: 5px 0;
   }
 
-  body {
-    margin: 0;
+  form {
+    width: 100%;
   }
 }

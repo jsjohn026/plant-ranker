@@ -48,7 +48,7 @@ span {
 @media all and (max-width: 600px) {
   li{
     max-width: 80%;
-    margin: 10px auto;
+    margin: 6px auto;
   }
   
   input {
